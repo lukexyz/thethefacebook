@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-st.image(Image.open('media/facemash_header.JPG'))
+st.image(Image.open('media/facemash_header2.JPG'))
 
 p1, p2, p3 = st.columns((6,1,6))
 
