@@ -1,4 +1,4 @@
-beimport streamlit as st
+import streamlit as st
 from PIL import Image
 
 st.image(Image.open('media/facemash_header.JPG'))
@@ -13,4 +13,4 @@ p3.image(Image.open('media/jeff_benzos.jpg'))
 
 p3.button('Choice 2')
 
-st.write("All credit to Mark Zuckerberg")
+st.write("All credit to the great man Mark Zuckerberg. 2021")
