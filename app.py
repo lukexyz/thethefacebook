@@ -1,9 +1,8 @@
-nimport streamlit as st
+import streamlit as st
 from PIL import Image
 
 st.image(Image.open('media/facemash_header.JPG'))
 
- 
 p1, p2, p3 = st.columns((6,1,6))
 
 p1.image(Image.open('media/zuckerburg_white.png'))
