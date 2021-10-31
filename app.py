@@ -1,4 +1,4 @@
-import streamlit as st
+nimport streamlit as st
 from PIL import Image
 
 st.image(Image.open('media/facemash_header.JPG'))
@@ -10,7 +10,7 @@ p1.image(Image.open('media/zuckerburg_white.png'))
 p1.button('Choice 1')
 
 p2.write("or")
-p3.image(Image.open('media/agatha-vega-again.jpg'))
+p3.image(Image.open('media/jefferson.jpg'))
 
 p3.button('Choice 2')
 
